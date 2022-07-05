@@ -1,0 +1,110 @@
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    padding: 100px 5%;
+}
+
+.flexible-container{
+    display: flex;
+
+}
+
+.flexible-content {
+    width: 45%;
+    height: 80vh;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.home{
+    background-image: url("/assets/images/shapes/home-bg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#male-bg{
+    background-image: url("/assets/images/shapes/male-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home img{
+    width: 100%;
+}
+
+#unic-name{
+    color: blueviolet;
+}
+
+.flexible-content h1{
+    font-size: 50px;
+}
+.flexible-content p{
+    font-size: 20px;
+}
+
+#primery-btn {
+    background-color: blueviolet;
+    text-decoration: none;
+    padding: 14px 30px;
+    color: antiquewhite;
+    border-radius: 25px;
+}
+
+.flexible-content p {
+    margin-bottom: 100px;
+}
+
+.about {
+    background-image: url("/assets/images/shapes/7.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+
+.about-img img{
+    margin-left: 40px;
+}
+
+.about-img {
+    overflow: hidden;
+}
+.about {
+    overflow: hidden;
+}
+
+
+
+.recipie img{
+    width: 80%;
+    justify-items: center;
+    margin: 0px auto;
+    border-radius: 20px;
+
+}
+
+
+.header h1{
+    font-size: 50px;
+    text-align: center;
+}
+.header p{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.recipie{
+    margin: auto 100px;
+    width: 400px;
+    height: 50%;
+}
+.recipie {
+    padding: 2%;
+    box-shadow: rgb(130 114 114) 7px 9px 30px;
+    border-radius: 20px;
+    overflow: hidden;
+}
